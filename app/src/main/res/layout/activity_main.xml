@@ -15,6 +15,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:elevation="10dp"
+        style="?attr/textAppearanceHeadline6"
+        android:textColor="?attr/colorOnPrimary"
+        android:id="@+id/profileName"
+        android:text="Keanu Reeves"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="8dp"
+        android:visibility="gone"/>
+
     <View
         android:id="@+id/scrim"
         android:layout_width="0dp"
