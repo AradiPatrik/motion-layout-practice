@@ -35,6 +35,14 @@
             <KeyPosition motion:motionTarget="@id/profile"
                 motion:framePosition="50"
                 motion:sizePercent="1.0"/>
+
+            <KeyTrigger motion:motionTarget="@id/add_fab"
+                motion:framePosition="50"
+                motion:onPositiveCross="hide" />
+
+            <KeyTrigger motion:motionTarget="@id/add_fab"
+                motion:framePosition="50"
+                motion:onNegativeCross="show" />
         </KeyFrameSet>
     </Transition>
 
