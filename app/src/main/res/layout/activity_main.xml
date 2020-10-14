@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/motion_layout"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -73,6 +74,9 @@
         android:src="@drawable/ic_baseline_add_24" />
 
     <ImageView
+        android:elevation="10dp"
+        app:tint="?attr/colorOnPrimary"
+        android:id="@+id/call_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_baseline_call_24"
