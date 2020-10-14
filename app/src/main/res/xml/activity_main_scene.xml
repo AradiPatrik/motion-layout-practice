@@ -43,6 +43,10 @@
             <KeyTrigger motion:motionTarget="@id/add_fab"
                 motion:framePosition="50"
                 motion:onNegativeCross="show" />
+
+            <KeyAttribute motion:motionTarget="@id/profileName"
+                motion:framePosition="55"
+                android:alpha="1"/>
         </KeyFrameSet>
     </Transition>
 
@@ -81,6 +85,10 @@
                 motion:layout_constraintEnd_toEndOf="parent"
                 motion:layout_constraintBottom_toBottomOf="parent"
                 motion:layout_constraintTop_toBottomOf="@id/profileBackground" />
+        </Constraint>
+
+        <Constraint android:id="@+id/profileName">
+            <PropertySet android:alpha="1"/>
         </Constraint>
     </ConstraintSet>
 </MotionScene>
